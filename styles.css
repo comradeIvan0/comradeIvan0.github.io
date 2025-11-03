@@ -26,6 +26,11 @@ header {
     background-color: rgb(240, 240, 240);
 }
 
+.share-button:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(0.7, 1.41, 0.82, 1.41) 0.2s;
+}
+
 .share-button svg {
     margin-left: 12px;
     margin-top: 10px;
